@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Forgotten Order of the Bearcat</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>The Forgotten Order of the Bearcat</h1>
+    <p class="subtitle">Something's watching you...</p>
+  </header>
+
+  <main>
+    <section id="start">
+      <p class="text">You’re not alone in here...</p>
+      <button id="buttonStart">Click here</button>
+    </section>
+
+    <section id="hiddenContent" class="hidden">
+      <p class="hiddenText">Did you hear that? It’s behind you.</p>
+      <button id="buttonReveal">Reveal the truth</button>
+    </section>
+
+    <section id="finalMessage" class="hidden">
+      <p class="text">Some things are better left undiscovered.</p>
+      <div id="randomImage" class="hiddenImage"></div>
+    </section>
+
+    <audio id="creepySound" loop>
+      <source src="creepy-sound.mp3" type="audio/mp3">
+    </audio>
+  </main>
+
+  <footer>
+    <p>© 2025 The Bearcat Order. They are always watching.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
